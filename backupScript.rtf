@@ -1,0 +1,47 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf200
+{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red86\green32\blue244;\red0\green0\blue163;\red224\green228\blue9;
+\red0\green0\blue0;\red209\green113\blue37;\red57\green192\blue38;\red202\green51\blue35;}
+{\*\expandedcolortbl;;\cssrgb\c41680\c25960\c96645;\cssrgb\c0\c0\c70000;\cssrgb\c90000\c90000\c0;
+\csgray\c0;\cssrgb\c85991\c52029\c18734;\cssrgb\c25704\c77963\c19556;\cssrgb\c83898\c28665\c18024;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs22 \cf2 \CocoaLigature0 #!/\cf3 \cb4 bin\cf2 \cb1 /csh\cf5 \
+\cf2 #AUTHOR:        Alex Allenspach\cf5 \
+\cf2 #NAME:          Security\cf5 \
+\cf2 #CLASS:         CS2080.001\cf5 \
+\cf2 #DATE DUE:      1 April 2019\cf5 \
+\cf2 #DESCRIPTION:   Create a file and type in the list of files (in your directory) that you\cf5 \
+\cf2 #               want to backup. Create a directory in which you will store the backed-up\cf5 \
+\cf2 #               files. \cf5 \
+\cf2 #EXIT VALUE\cf5 \
+\cf2 #               0       if successfully completed\cf5 \
+\cf2 #               10      incorrect number of arguments\cf5 \
+\cf2 #               20      one or more files does not exist\cf5 \
+\cf2 # ==============================================================================\cf5 \
+\cf2 #Making sure that exactly two arguments are entered\cf5 \
+\cf6 if\cf5  \cf6 (\cf5  \cf7 $#argv\cf5  \cf6 !=\cf5  2 \cf6 )\cf5  \cf6 then\cf5 \
+        \cf6 echo\cf5  \cf8 "Requires two arguments"\cf5 \
+        \cf6 exit\cf5  \cf8 10\cf5 \
+\cf6 endif\cf5 \
+\
+\cf2 #Check that the first argument is the name of a file that exists\cf5 \
+\cf6 if\cf5  \cf6 (\cf5  \cf6 !\cf5  \cf6 -\cf5 e \cf7 $argv\cf5 [1] \cf6 )\cf5  \cf6 then\cf5 \
+        \cf6 echo\cf5  \cf8 "The filename given as your first argument does not exist"\cf5 \
+        \cf6 exit\cf5  \cf8 20\cf5 \
+\cf6 endif\cf5 \
+\
+\cf2 #Check that the second argument is the name of the directory that exists\cf5 \
+\cf6 if\cf5  \cf6 (\cf5  \cf6 !\cf5  \cf6 -\cf5 d \cf7 $argv\cf5 [2] \cf6 )\cf5  \cf6 then\cf5 \
+        \cf6 echo\cf5  \cf8 "The second argument is not a directory or the name of a directory that doesn't exist."\cf5 \
+        \cf6 exit\cf5  \cf8 20\cf5 \
+\cf6 endif\cf5 \
+\
+\cf2 #Creating backup files for all the files listed in the first argument and putting them in the\cf5 \
+\cf2 #directory given as the second argument\cf5 \
+\cf6 foreach\cf5  files_to_backup ( \cf6 `cat $argv[1]`\cf5  )\
+        cp \cf7 $files_to_backup\cf5  \cf7 $HOME\cf5 /backup_files/\cf7 $files_to_backup\cf5 .bak\
+        cp \cf7 $files_to_backup\cf5  \cf7 $\{HOME\}\cf5 /backup_files/\cf7 $\{files_to_backup\}\cf5 .bak\
+\cf6 end\cf5 \
+\cf6 exit\cf5  \cf8 0}

@@ -1,0 +1,496 @@
+Script started on Fri 15 Feb 2019 09:16:26 PM MST
+]0;aallensp@blanca:~[?1034h[aallensp@blanca ~]$ mkdir Ch_5_[K
+]0;aallensp@blanca:~[aallensp@blanca ~]$ echo $SHELL
+/bin/bash
+]0;aallensp@blanca:~[aallensp@blanca ~]$ /etc/passwd
+bash: /etc/passwd: Permission denied
+]0;aallensp@blanca:~[aallensp@blanca ~]$ echo /etc/passwde/etc/passwdc/etc/passwdh/etc/passwdo/etc/passwd /etc/passwd
+/etc/passwd
+]0;aallensp@blanca:~[aallensp@blanca ~]$ cat echo /etc/passwd[1P /etc/passwd[1P /etc/passwd[1P /etc/passwd[1P /etc/passwdc /etc/passwda /etc/passwdt /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:99:99:Nobody:/:/sbin/nologin
+avahi-autoipd:x:170:170:Avahi IPv4LL Stack:/var/lib/avahi-autoipd:/sbin/nologin
+pegasus:x:66:65:tog-pegasus OpenPegasus WBEM/CIM services:/var/lib/Pegasus:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+polkitd:x:999:998:User for polkitd:/:/sbin/nologin
+abrt:x:173:173::/etc/abrt:/sbin/nologin
+sssd:x:998:997:User for sssd:/:/sbin/nologin
+apache:x:48:48:Apache:/usr/share/httpd:/sbin/nologin
+tss:x:59:59:Account used by the trousers package to sandbox the tcsd daemon:/dev/null:/sbin/nologin
+unbound:x:997:995:Unbound DNS resolver:/etc/unbound:/sbin/nologin
+usbmuxd:x:113:113:usbmuxd user:/:/sbin/nologin
+saslauth:x:996:76:"Saslauthd user":/run/saslauthd:/sbin/nologin
+colord:x:995:994:User for colord:/var/lib/colord:/sbin/nologin
+ntp:x:38:38::/etc/ntp:/sbin/nologin
+libstoragemgmt:x:994:993:daemon account for libstoragemgmt:/var/run/lsm:/sbin/nologin
+rpc:x:32:32:Rpcbind Daemon:/var/lib/rpcbind:/sbin/nologin
+postfix:x:89:89::/var/spool/postfix:/sbin/nologin
+rtkit:x:172:172:RealtimeKit:/proc:/sbin/nologin
+qemu:x:107:107:qemu user:/:/sbin/nologin
+chrony:x:993:992::/var/lib/chrony:/sbin/nologin
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+nfsnobody:x:65534:65534:Anonymous NFS User:/var/lib/nfs:/sbin/nologin
+radvd:x:75:75:radvd user:/:/sbin/nologin
+pulse:x:171:171:PulseAudio System Daemon:/var/run/pulse:/sbin/nologin
+gdm:x:42:42::/var/lib/gdm:/sbin/nologin
+gnome-initial-setup:x:992:990::/run/gnome-initial-setup/:/sbin/nologin
+pcp:x:991:989:Performance Co-Pilot:/var/lib/pcp:/sbin/nologin
+avahi:x:70:70:Avahi mDNS/DNS-SD Stack:/var/run/avahi-daemon:/sbin/nologin
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+oprofile:x:16:16:Special user account to be used by OProfile:/var/lib/oprofile:/sbin/nologin
+tcpdump:x:72:72::/:/sbin/nologin
+maximus:x:1000:1000:maximus:/home/maximus:/bin/bash
+systemd-bus-proxy:x:990:987:systemd Bus Proxy:/:/sbin/nologin
+systemd-network:x:989:986:systemd Network Management:/:/sbin/nologin
+geoclue:x:988:985:User for geoclue:/var/lib/geoclue:/sbin/nologin
+setroubleshoot:x:987:983::/var/lib/setroubleshoot:/sbin/nologin
+sophosav:x:986:59712:Sophos Anti-Virus:/opt/sophos-av:/bin/bash
+linclab:x:1001:1001::/home/linclab:/bin/bash
+]0;aallensp@blanca:~[aallensp@blanca ~]$ echo $0
+bash
+]0;aallensp@blanca:~[aallensp@blanca ~]$ ksh
+$ echo $0
+ksh
+$ bash
+]0;aallensp@blanca:~[?1034h[aallensp@blanca ~]$ echo $0
+bash
+]0;aallensp@blanca:~[aallensp@blanca ~]$ exit
+exit
+$ exit
+]0;aallensp@blanca:~[aallensp@blanca ~]$ echo $0
+bash
+]0;aallensp@blanca:~[aallensp@blanca ~]$ logout
+bash: logout: not login shell: use `exit'
+]0;aallensp@blanca:~[aallensp@blanca ~]$ exit
+exit
+
+Script done on Fri 15 Feb 2019 09:50:13 PM MST
+Script started on Fri 15 Feb 2019 09:51:40 PM MST
+]0;aallensp@blanca:~[?1034h[aallensp@blanca ~]$ who > file1
+]0;aallensp@blanca:~[aallensp@blanca ~]$ more file1
+(unknown) :0           2018-12-11 21:05 (:0)
+aallensp pts/0        2019-02-15 21:50 (uccs-vpn-a52.uccs.edu)
+dcruz3   pts/1        2019-02-15 19:16 (uccs-vpn-a223.uccs.edu)
+aallensp pts/2        2019-02-15 21:51
+dcruz3   pts/3        2019-02-15 21:54
+tdreilin pts/4        2019-02-15 21:18 (uccs-vpn-a53.uccs.edu)
+]0;aallensp@blanca:~[aallensp@blanca ~]$ date; who > file2
+Fri Feb 15 22:02:59 MST 2019
+]0;aallensp@blanca:~[aallensp@blanca ~]$ more file2
+(unknown) :0           2018-12-11 21:05 (:0)
+aallensp pts/0        2019-02-15 21:50 (uccs-vpn-a52.uccs.edu)
+dcruz3   pts/1        2019-02-15 19:16 (uccs-vpn-a223.uccs.edu)
+aallensp pts/2        2019-02-15 21:51
+dcruz3   pts/3        2019-02-15 21:58
+tdreilin pts/4        2019-02-15 21:18 (uccs-vpn-a53.uccs.edu)
+]0;aallensp@blanca:~[aallensp@blanca ~]$ ksh
+$ exit$ bash$ echo $0$ bash   $ exit$ bash$ echo $0$ echo $0$ echo $0$ echo $0$ bash   $ echo $0$ echo $0$ echo $0$ echo $0$ echo $0$ bash   $ exit$     $ exit$ bash$ echo $0$ echo $0$ echo $0$ echo $0$ echo $0$ echo $0$ bash   $ exit$     $ exit$ bash$ echo $0$ echo $0$ bash   $ exit$     $ exit
+]0;aallensp@blanca:~[aallensp@blanca ~]$ exit
+exit
+
+Script done on Fri 15 Feb 2019 10:19:55 PM MST
+Script started on Sat 16 Feb 2019 07:07:15 PM MST
+]0;aallensp@blanca:~[?1034h[aallensp@blanca ~]$ logoutscript -a ch_5_sessionclear[K[3Plsclear[1Pexit[1Pkshmore file2[7@date; who >[C[C[C[C[C[C[K3[1P[C[1@ [1@>[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@ [1@f[1@i[1@l[1@e[1@3[1@;[C[C[C[C[C[C[C[C[C[C[C[C> file3[C[C[C[C[C[C
+]0;aallensp@blanca:~[aallensp@blanca ~]$ morwe [K[K[Ke file3
+Sat Feb 16 19:11:24 MST 2019
+(unknown) :0           2018-12-11 21:05 (:0)
+jseaton  pts/0        2019-02-16 16:22 (uccs-vpn-a210.uccs.edu)
+aallensp pts/1        2019-02-16 18:55 (uccs-vpn-a206.uccs.edu)
+aallensp pts/2        2019-02-16 19:07
+]0;aallensp@blanca:~[aallensp@blanca ~]$ more file3[16@date > file3; who >>[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Clogout[Kdate > file3; who >> file3[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Clogout[Kscript -a ch_5_sessionclear[K[3Plsclear[1Pexit[1Pkshmore file2[7@date; who >[C[C[C[C[C[C[1@ [1@>[1@ [1@f[1@i[1@l[1@e[1@4[C[C[C[C[C[C[C[C[C[C[C[C[C[1P file2< file2[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[Kwho
+(unknown) :0           2018-12-11 21:05 (:0)
+jseaton  pts/0        2019-02-16 16:22 (uccs-vpn-a210.uccs.edu)
+aallensp pts/1        2019-02-16 18:55 (uccs-vpn-a206.uccs.edu)
+aallensp pts/2        2019-02-16 19:07
+]0;aallensp@blanca:~[aallensp@blanca ~]$ more file4
+Sat Feb 16 19:20:37 MST 2019
+]0;aallensp@blanca:~[aallensp@blanca ~]$ cp file3 file3.bak
+]0;aallensp@blanca:~[aallensp@blanca ~]$ cp file3 file3.bak[8Pmore file4date > file4; who[7Pmore file3[16@date > file3; who >>[C[C[C[C[C[C[1P[1@b[Clogout[Kbate > file3; who >> file3[C[1@>[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+bash: bate: command not found...
+]0;aallensp@blanca:~[aallensp@blanca ~]$ more file3
+Sat Feb 16 19:11:24 MST 2019
+(unknown) :0           2018-12-11 21:05 (:0)
+jseaton  pts/0        2019-02-16 16:22 (uccs-vpn-a210.uccs.edu)
+aallensp pts/1        2019-02-16 18:55 (uccs-vpn-a206.uccs.edu)
+aallensp pts/2        2019-02-16 19:07
+(unknown) :0           2018-12-11 21:05 (:0)
+jseaton  pts/0        2019-02-16 16:22 (uccs-vpn-a210.uccs.edu)
+aallensp pts/1        2019-02-16 18:55 (uccs-vpn-a206.uccs.edu)
+aallensp pts/2        2019-02-16 19:07
+]0;aallensp@blanca:~[aallensp@blanca ~]$ more file3.bak
+Sat Feb 16 19:11:24 MST 2019
+(unknown) :0           2018-12-11 21:05 (:0)
+jseaton  pts/0        2019-02-16 16:22 (uccs-vpn-a210.uccs.edu)
+aallensp pts/1        2019-02-16 18:55 (uccs-vpn-a206.uccs.edu)
+aallensp pts/2        2019-02-16 19:07
+]0;aallensp@blanca:~[aallensp@blanca ~]$ more file3.bak[K[17@bate >> file3; who >>[C[C[C[C[C[C[C[1@&[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@&[C[C[C[C[C[C[C[C
+]0;aallensp@blanca:~[aallensp@blanca ~]$ more file3
+Sat Feb 16 19:11:24 MST 2019
+(unknown) :0           2018-12-11 21:05 (:0)
+jseaton  pts/0        2019-02-16 16:22 (uccs-vpn-a210.uccs.edu)
+aallensp pts/1        2019-02-16 18:55 (uccs-vpn-a206.uccs.edu)
+aallensp pts/2        2019-02-16 19:07
+(unknown) :0           2018-12-11 21:05 (:0)
+jseaton  pts/0        2019-02-16 16:22 (uccs-vpn-a210.uccs.edu)
+aallensp pts/1        2019-02-16 18:55 (uccs-vpn-a206.uccs.edu)
+aallensp pts/2        2019-02-16 19:07
+bash: bate: command not found...
+(unknown) :0           2018-12-11 21:05 (:0)
+jseaton  pts/0        2019-02-16 16:22 (uccs-vpn-a210.uccs.edu)
+aallensp pts/1        2019-02-16 18:55 (uccs-vpn-a206.uccs.edu)
+aallensp pts/2        2019-02-16 19:07
+]0;aallensp@blanca:~[aallensp@blanca ~]$ more file3[19@bate &>> file3; who &>>[C[C[C[C[C[C[1P[1@5[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K4[1P[1P[C[C[C[C[C[C[C[1P[1@4[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kmore file3.bak[K[17@bate >> file3; who >>[C[C[C[C[C[C[K4[17Pmore file3.bak[Kmore file3[Kmore file3[Kmore file3.bak[Kbate >> file3; who >> file4[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9Pcp file3 file3.bakbate >> file3; who >> file4[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9Pcp file3 file3.bak[8Pmore file4date > file4; who[7Pmore file3[16@date > file3; who >>[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Clogout[Kscript -a ch_5_sessionlogout[Kdate > file3; who >> file3[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[16Pmore[C[C[C[C[C[Cdate > file4; who[7Pmore file4cp file3 file3.bakbate >> file3; who >> file4[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[17Pmore file3.bak[Kmore file3[Kmore file3[Kmore file3.bak[Kmore file3[Kmore file3[Kmore file3.bak[Kbate >> file3; who >> file4[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[17Pmore file3.bak[Kmore file3[Kmore file3[Kmore file3.bak[Kbate >> file3; who >> file4[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K{ bate; who } >> file4 2>> file5
+> { bate; who } >> file4 2>> file5[C[C[Kbash: syntax error: unexpected end of file
+]0;aallensp@blanca:~[aallensp@blanca ~]$ { bate; who } >> file4 2>> file5[1@;
+]0;aallensp@blanca:~[aallensp@blanca ~]$ more file4
+Sat Feb 16 19:20:37 MST 2019
+(unknown) :0           2018-12-11 21:05 (:0)
+jseaton  pts/0        2019-02-16 16:22 (uccs-vpn-a210.uccs.edu)
+aallensp pts/1        2019-02-16 18:55 (uccs-vpn-a206.uccs.edu)
+aallensp pts/2        2019-02-16 19:07
+cfairey  pts/3        2019-02-16 19:37 (uccs-vpn-a226.uccs.edu)
+sdowney2 pts/4        2019-02-16 19:50 (128.198.85.65)
+jseaton  pts/5        2019-02-16 19:56
+]0;aallensp@blanca:~[aallensp@blanca ~]$ more files5[K[K[Ke5
+bash: bate: command not found...
+]0;aallensp@blanca:~[aallensp@blanca ~]$ ksh
+$ set -0 vi    -o vi
+$ ls -l | lpr
+lpr: Error - no default destination available.
+$ ls -l | lpr$            $ ls -l | lpr$ ls -l | ilprilprilprlpr lpr lpr tlprelprelpr lprflprilprllprelpr1lpr lpr|lpr lpr lp
+lpr: Error - no default destination available.
+$ ls -l | tee file1 | lpr$ ls -l | tee file1 | lplPPRRiRR iRR hRhhhh$                         $ ls -l | tee file1 | lPhR$                         $ ls -l | tee file1 | lPhR
+ksh: lPhR: not found [No such file or directory]
+$ ls - l  l | file2 file3file2 fileeeeee            x x x       |        ii  set    cript      exit
+]0;aallensp@blanca:~[aallensp@blanca ~]$ exit
+exit
+
+Script done on Sat 16 Feb 2019 08:35:21 PM MST
+Script started on Sat 16 Feb 2019 08:37:50 PM MST
+]0;aallensp@blanca:~[?1034h[aallensp@blanca ~]$ ls -l | tee file2 file3
+total 160
+drwxr-xr-x+ 3 aallensp domain users     3 Feb 10 21:58 assignments
+drwxr-xr-x+ 2 aallensp domain users     6 Feb 10 22:43 backups
+drwxr-xr-x+ 3 aallensp domain users     3 Feb 11 14:38 busLetters
+drwxr-xr-x+ 2 aallensp domain users     2 Feb 15 21:16 Ch_5
+-rw-r--r--+ 1 aallensp domain users 13382 Feb 16 20:35 ch_5_session
+drwxr-xr-x+ 3 aallensp domain users     3 Feb 15 20:17 chapter_4
+-rw-r--r--+ 1 aallensp domain users 61117 Feb 15 21:02 ch_four_session
+-rw-r--r--+ 1 aallensp domain users     0 Feb 16 20:31 file1
+-rw-r--r--+ 1 aallensp domain users     0 Feb 16 20:38 file2
+-rw-r--r--+ 1 aallensp domain users     0 Feb 16 20:38 file3
+-rw-r--r--+ 1 aallensp domain users   241 Feb 16 19:21 file3.bak
+-rw-r--r--+ 1 aallensp domain users   399 Feb 16 20:03 file4
+-rw-r--r--+ 1 aallensp domain users    33 Feb 16 20:03 file5
+-rw-r--r--+ 1 aallensp domain users 68443 Feb 11 14:41 hw1
+drwxr-xr-x+ 3 aallensp domain users     3 Feb 11 14:38 letters
+drwxr-xr-x+ 2 aallensp domain users     4 Jan 28 11:58 perl5
+drwxr-xr-x+ 5 aallensp domain users     5 Feb 10 21:57 reports
+]0;aallensp@blanca:~[aallensp@blanca ~]$ more file2
+total 160
+drwxr-xr-x+ 3 aallensp domain users     3 Feb 10 21:58 assignments
+drwxr-xr-x+ 2 aallensp domain users     6 Feb 10 22:43 backups
+drwxr-xr-x+ 3 aallensp domain users     3 Feb 11 14:38 busLetters
+drwxr-xr-x+ 2 aallensp domain users     2 Feb 15 21:16 Ch_5
+-rw-r--r--+ 1 aallensp domain users 13382 Feb 16 20:35 ch_5_session
+drwxr-xr-x+ 3 aallensp domain users     3 Feb 15 20:17 chapter_4
+-rw-r--r--+ 1 aallensp domain users 61117 Feb 15 21:02 ch_four_session
+-rw-r--r--+ 1 aallensp domain users     0 Feb 16 20:31 file1
+-rw-r--r--+ 1 aallensp domain users     0 Feb 16 20:38 file2
+-rw-r--r--+ 1 aallensp domain users     0 Feb 16 20:38 file3
+-rw-r--r--+ 1 aallensp domain users   241 Feb 16 19:21 file3.bak
+-rw-r--r--+ 1 aallensp domain users   399 Feb 16 20:03 file4
+-rw-r--r--+ 1 aallensp domain users    33 Feb 16 20:03 file5
+-rw-r--r--+ 1 aallensp domain users 68443 Feb 11 14:41 hw1
+drwxr-xr-x+ 3 aallensp domain users     3 Feb 11 14:38 letters
+drwxr-xr-x+ 2 aallensp domain users     4 Jan 28 11:58 perl5
+drwxr-xr-x+ 5 aallensp domain users     5 Feb 10 21:57 reports
+]0;aallensp@blanca:~[aallensp@blanca ~]$ set -o noclobber
+]0;aallensp@blanca:~[aallensp@blanca ~]$ set -o noclobber[6Pmore file2ls -l | tee file2 file3[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[K[1Pkshexitls -l | tee file2 file3[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kexit
+exit
+
+Script done on Sat 16 Feb 2019 08:41:13 PM MST
+Script started on Sat 16 Feb 2019 08:41:48 PM MST
+]0;aallensp@blanca:~[?1034h[aallensp@blanca ~]$ ^V[Kls -l | file1 [1@t[1@e[1@e[1@ [C[C[C[C[C[C| lpr
+lpr: Error - no default destination available.
+]0;aallensp@blanca:~[aallensp@blanca ~]$ ls -l | tee file1 | lpr[K[K[K[K[K[K
+total 166
+drwxr-xr-x+ 3 aallensp domain users     3 Feb 10 21:58 assignments
+drwxr-xr-x+ 2 aallensp domain users     6 Feb 10 22:43 backups
+drwxr-xr-x+ 3 aallensp domain users     3 Feb 11 14:38 busLetters
+drwxr-xr-x+ 2 aallensp domain users     2 Feb 15 21:16 Ch_5
+-rw-r--r--+ 1 aallensp domain users 16225 Feb 16 20:41 ch_5_session
+drwxr-xr-x+ 3 aallensp domain users     3 Feb 15 20:17 chapter_4
+-rw-r--r--+ 1 aallensp domain users 61117 Feb 15 21:02 ch_four_session
+-rw-r--r--+ 1 aallensp domain users     0 Feb 16 20:46 file1
+-rw-r--r--+ 1 aallensp domain users  1086 Feb 16 20:38 file2
+-rw-r--r--+ 1 aallensp domain users  1086 Feb 16 20:38 file3
+-rw-r--r--+ 1 aallensp domain users   241 Feb 16 19:21 file3.bak
+-rw-r--r--+ 1 aallensp domain users   399 Feb 16 20:03 file4
+-rw-r--r--+ 1 aallensp domain users    33 Feb 16 20:03 file5
+-rw-r--r--+ 1 aallensp domain users 68443 Feb 11 14:41 hw1
+drwxr-xr-x+ 3 aallensp domain users     3 Feb 11 14:38 letters
+drwxr-xr-x+ 2 aallensp domain users     4 Jan 28 11:58 perl5
+drwxr-xr-x+ 5 aallensp domain users     5 Feb 10 21:57 reports
+]0;aallensp@blanca:~[aallensp@blanca ~]$ set -o
+allexport      	off
+braceexpand    	on
+emacs          	on
+errexit        	off
+errtrace       	off
+functrace      	off
+hashall        	on
+histexpand     	on
+history        	on
+ignoreeof      	off
+interactive-comments	on
+keyword        	off
+monitor        	on
+noclobber      	off
+noexec         	off
+noglob         	off
+nolog          	off
+notify         	off
+nounset        	off
+onecmd         	off
+physical       	off
+pipefail       	off
+posix          	off
+privileged     	off
+verbose        	off
+vi             	off
+xtrace         	off
+]0;aallensp@blanca:~[aallensp@blanca ~]$ swe[K[K[Kset -o noclobber
+]0;aallensp@blanca:~[aallensp@blanca ~]$ set -o noclobber[Kls -l | tee file1
+total 166
+drwxr-xr-x+ 3 aallensp domain users     3 Feb 10 21:58 assignments
+drwxr-xr-x+ 2 aallensp domain users     6 Feb 10 22:43 backups
+drwxr-xr-x+ 3 aallensp domain users     3 Feb 11 14:38 busLetters
+drwxr-xr-x+ 2 aallensp domain users     2 Feb 15 21:16 Ch_5
+-rw-r--r--+ 1 aallensp domain users 16225 Feb 16 20:41 ch_5_session
+drwxr-xr-x+ 3 aallensp domain users     3 Feb 15 20:17 chapter_4
+-rw-r--r--+ 1 aallensp domain users 61117 Feb 15 21:02 ch_four_session
+-rw-r--r--+ 1 aallensp domain users     0 Feb 16 20:47 file1
+-rw-r--r--+ 1 aallensp domain users  1086 Feb 16 20:38 file2
+-rw-r--r--+ 1 aallensp domain users  1086 Feb 16 20:38 file3
+-rw-r--r--+ 1 aallensp domain users   241 Feb 16 19:21 file3.bak
+-rw-r--r--+ 1 aallensp domain users   399 Feb 16 20:03 file4
+-rw-r--r--+ 1 aallensp domain users    33 Feb 16 20:03 file5
+-rw-r--r--+ 1 aallensp domain users 68443 Feb 11 14:41 hw1
+drwxr-xr-x+ 3 aallensp domain users     3 Feb 11 14:38 letters
+drwxr-xr-x+ 2 aallensp domain users     4 Jan 28 11:58 perl5
+drwxr-xr-x+ 5 aallensp domain users     5 Feb 10 21:57 reports
+]0;aallensp@blanca:~[aallensp@blanca ~]$ exit
+exit
+
+Script done on Sat 16 Feb 2019 09:16:13 PM MST
+Script started on Tue 19 Feb 2019 11:06:19 AM MST
+]0;aallensp@blanca:~[?1034h[aallensp@blanca ~]$ set -o noclobber
+]0;aallensp@blanca:~[aallensp@blanca ~]$ set -o
+allexport      	off
+braceexpand    	on
+emacs          	on
+errexit        	off
+errtrace       	off
+functrace      	off
+hashall        	on
+histexpand     	on
+history        	on
+ignoreeof      	off
+interactive-comments	on
+keyword        	off
+monitor        	on
+noclobber      	on
+noexec         	off
+noglob         	off
+nolog          	off
+notify         	off
+nounset        	off
+onecmd         	off
+physical       	off
+pipefail       	off
+posix          	off
+privileged     	off
+verbose        	off
+vi             	off
+xtrace         	off
+]0;aallensp@blanca:~[aallensp@blanca ~]$ ls -l | tee file1 > /dev/null | lpr
+lpr: Error - no default destination available.
+]0;aallensp@blanca:~[aallensp@blanca ~]$ ls -l | tee file1 > /dev/null | lpr[K[K[K[K[K[K
+]0;aallensp@blanca:~[aallensp@blanca ~]$ ls -l | tee file1 > /dev/null
+]0;aallensp@blanca:~[aallensp@blanca ~]$ ls -l | tee file1 > /dev/null[1@>[C[C
+]0;aallensp@blanca:~[aallensp@blanca ~]$ set +o noclobber
+]0;aallensp@blanca:~[aallensp@blanca ~]$ set -o
+allexport      	off
+braceexpand    	on
+emacs          	on
+errexit        	off
+errtrace       	off
+functrace      	off
+hashall        	on
+histexpand     	on
+history        	on
+ignoreeof      	off
+interactive-comments	on
+keyword        	off
+monitor        	on
+noclobber      	off
+noexec         	off
+noglob         	off
+nolog          	off
+notify         	off
+nounset        	off
+onecmd         	off
+physical       	off
+pipefail       	off
+posix          	off
+privileged     	off
+verbose        	off
+vi             	off
+xtrace         	off
+]0;aallensp@blanca:~[aallensp@blanca ~]$ set -o+o noclobberls -l >| tee file1 > /dev/null[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C | lpr[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cset -o[Kls -l | tee file1 > /dev/null | lpr[K[1@>[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@>[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K3 file4[1P[1P[1P[1P[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kexit
+exit
+
+Script done on Tue 19 Feb 2019 11:13:06 AM MST
+Script started on Tue 19 Feb 2019 12:26:18 PM MST
+]0;aallensp@blanca:~[?1034h[aallensp@blanca ~]$ logoutscript -a ch_5_sessionet -o[Kcat ch_5_sessionlear[K[3Plsexitset -o+o noclobberls -l >| tee file1 > /dev/null[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14Pset +o noclobber-o[K[2Pexit[2Plsclearat ch_5_session[10Pset -ocript -a ch_5_sessionlogout[K[Kswt[K[Ket -o
+allexport      	off
+braceexpand    	on
+emacs          	on
+errexit        	off
+errtrace       	off
+functrace      	off
+hashall        	on
+histexpand     	on
+history        	on
+ignoreeof      	off
+interactive-comments	on
+keyword        	off
+monitor        	on
+noclobber      	off
+noexec         	off
+noglob         	off
+nolog          	off
+notify         	off
+nounset        	off
+onecmd         	off
+physical       	off
+pipefail       	off
+posix          	off
+privileged     	off
+verbose        	off
+vi             	off
+xtrace         	off
+]0;aallensp@blanca:~[aallensp@blanca ~]$ ls -l | cp file3 file4
+cp: cannot stat ‘file3’: No such file or directory
+]0;aallensp@blanca:~[aallensp@blanca ~]$ ls -l | cp file3 file4[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[Ktee file3; cp file3 file4
+total 169
+drwxr-xr-x+ 3 aallensp domain users     3 Feb 10 21:58 assignments
+drwxr-xr-x+ 2 aallensp domain users     6 Feb 10 22:43 backups
+drwxr-xr-x+ 3 aallensp domain users     3 Feb 11 14:38 busLetters
+drwxr-xr-x+ 2 aallensp domain users     2 Feb 15 21:16 Ch_5
+-rw-r--r--+ 1 aallensp domain users 22453 Feb 19 11:13 ch_5_session
+drwxr-xr-x+ 3 aallensp domain users     3 Feb 15 20:17 chapter_4
+-rw-r--r--+ 1 aallensp domain users 61117 Feb 15 21:02 ch_four_session
+-rw-r--r--+ 1 aallensp domain users  1086 Feb 19 11:07 file1
+-rw-r--r--+ 1 aallensp domain users  1086 Feb 16 20:38 file2
+-rw-r--r--+ 1 aallensp domain users   241 Feb 16 19:21 file3.bak
+-rw-r--r--+ 1 aallensp domain users    33 Feb 16 20:03 file5
+-rw-r--r--+ 1 aallensp domain users 68443 Feb 11 14:41 hw1
+drwxr-xr-x+ 3 aallensp domain users     3 Feb 11 14:38 letters
+drwxr-xr-x+ 2 aallensp domain users     4 Jan 28 11:58 perl5
+drwxr-xr-x+ 5 aallensp domain users     5 Feb 10 21:57 reports
+-rw-r--r--+ 1 aallensp domain users     0 Feb 19 11:08 tee
+]0;aallensp@blanca:~[aallensp@blanca ~]$ cat file3
+total 169
+drwxr-xr-x+ 3 aallensp domain users     3 Feb 10 21:58 assignments
+drwxr-xr-x+ 2 aallensp domain users     6 Feb 10 22:43 backups
+drwxr-xr-x+ 3 aallensp domain users     3 Feb 11 14:38 busLetters
+drwxr-xr-x+ 2 aallensp domain users     2 Feb 15 21:16 Ch_5
+-rw-r--r--+ 1 aallensp domain users 22453 Feb 19 11:13 ch_5_session
+drwxr-xr-x+ 3 aallensp domain users     3 Feb 15 20:17 chapter_4
+-rw-r--r--+ 1 aallensp domain users 61117 Feb 15 21:02 ch_four_session
+-rw-r--r--+ 1 aallensp domain users  1086 Feb 19 11:07 file1
+-rw-r--r--+ 1 aallensp domain users  1086 Feb 16 20:38 file2
+-rw-r--r--+ 1 aallensp domain users   241 Feb 16 19:21 file3.bak
+-rw-r--r--+ 1 aallensp domain users    33 Feb 16 20:03 file5
+-rw-r--r--+ 1 aallensp domain users 68443 Feb 11 14:41 hw1
+drwxr-xr-x+ 3 aallensp domain users     3 Feb 11 14:38 letters
+drwxr-xr-x+ 2 aallensp domain users     4 Jan 28 11:58 perl5
+drwxr-xr-x+ 5 aallensp domain users     5 Feb 10 21:57 reports
+-rw-r--r--+ 1 aallensp domain users     0 Feb 19 11:08 tee
+]0;aallensp@blanca:~[aallensp@blanca ~]$ cat file4
+total 169
+drwxr-xr-x+ 3 aallensp domain users     3 Feb 10 21:58 assignments
+drwxr-xr-x+ 2 aallensp domain users     6 Feb 10 22:43 backups
+drwxr-xr-x+ 3 aallensp domain users     3 Feb 11 14:38 busLetters
+drwxr-xr-x+ 2 aallensp domain users     2 Feb 15 21:16 Ch_5
+-rw-r--r--+ 1 aallensp domain users 22453 Feb 19 11:13 ch_5_session
+drwxr-xr-x+ 3 aallensp domain users     3 Feb 15 20:17 chapter_4
+-rw-r--r--+ 1 aallensp domain users 61117 Feb 15 21:02 ch_four_session
+-rw-r--r--+ 1 aallensp domain users  1086 Feb 19 11:07 file1
+-rw-r--r--+ 1 aallensp domain users  1086 Feb 16 20:38 file2
+-rw-r--r--+ 1 aallensp domain users   241 Feb 16 19:21 file3.bak
+-rw-r--r--+ 1 aallensp domain users    33 Feb 16 20:03 file5
+-rw-r--r--+ 1 aallensp domain users 68443 Feb 11 14:41 hw1
+drwxr-xr-x+ 3 aallensp domain users     3 Feb 11 14:38 letters
+drwxr-xr-x+ 2 aallensp domain users     4 Jan 28 11:58 perl5
+drwxr-xr-x+ 5 aallensp domain users     5 Feb 10 21:57 reports
+-rw-r--r--+ 1 aallensp domain users     0 Feb 19 11:08 tee
+]0;aallensp@blanca:~[aallensp@blanca ~]$ echo "Hello there!" > file1.txt[K[K[K[K
+bash: !": event not found
+[aallensp@blanca ~]$ cat file434[Kcat file4[Kecho "Hello there ![K[K[K[K[K[K[K[K[K[K[K[K[K[KHello there! > file1
+]0;aallensp@blanca:~[aallensp@blanca ~]$ more file1
+Hello there!
+]0;aallensp@blanca:~[aallensp@blanca ~]$ echo "Hello
+> World" > file2
+]0;aallensp@blanca:~[aallensp@blanca ~]$ more file2
+Hello
+World
+]0;aallensp@blanca:~[aallensp@blanca ~]$ facts = "UNIX vs. Others"
+bash: facts: command not found...
+]0;aallensp@blanca:~[aallensp@blanca ~]$ facts = "UNIX vs. Others"[K[C[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+bash: facts: command not found...
+]0;aallensp@blanca:~[aallensp@blanca ~]$ facts = UNIX vs. Others'[1@'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+bash: facts: command not found...
+]0;aallensp@blanca:~[aallensp@blanca ~]$ facts = 'UNIX vs. Others'[C[C[C[C[C[C[C[C[C[C[K"[1P[1@'[C[C[1P[1@"[1P[1P
+]0;aallensp@blanca:~[aallensp@blanca ~]$ ECHO [K[K[K[K[Kecho ${facts}
+UNIX vs. Others
+]0;aallensp@blanca:~[aallensp@blanca ~]$ echo "This is a fact $facts in our life."
+This is a fact UNIX vs. Others in our life.
+]0;aallensp@blanca:~[aallensp@blanca ~]$ echo "This is a fact '$facts' in our life"
+This is a fact 'UNIX vs. Others' in our life
+]0;aallensp@blanca:~[aallensp@blanca ~]$ echo "This is a fact \$facts in our life"
+This is a fact $facts in our life
+]0;aallensp@blanca:~[aallensp@blanca ~]$ echo "THis [K[K[K[Khis is a fact \"$facts\" in our life."
+This is a fact "UNIX vs. Others" in our life.
+]0;aallensp@blanca:~[aallensp@blanca ~]$ first="PARENT"
+]0;aallensp@blanca:~[aallensp@blanca ~]$ echo $first
+PARENT
+]0;aallensp@blanca:~[aallensp@blanca ~]$ bash
+]0;aallensp@blanca:~[?1034h[aallensp@blanca ~]$ echo [K[K[K[K[Klogoutscript -a ch_5_sessionet -o[Kcat ch_5_session[10Pset -ocript -a ch_5_sessionlogout[K[Kecho $first
+
+]0;aallensp@blanca:~[aallensp@blanca ~]$ second="SUBSHELL"
+]0;aallensp@blanca:~[aallensp@blanca ~]$ echo $second
+SUBSHELL
+]0;aallensp@blanca:~[aallensp@blanca ~]$ exit
+exit
+]0;aallensp@blanca:~[aallensp@blanca ~]$ echo $first
+PARENT
+]0;aallensp@blanca:~[aallensp@blanca ~]$ echo $second
+
+]0;aallensp@blanca:~[aallensp@blanca ~]$ exit
+exit
+
+Script done on Tue 19 Feb 2019 12:46:42 PM MST
