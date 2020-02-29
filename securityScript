@@ -1,0 +1,36 @@
+#!/bin/csh
+#AUTHOR:        Alex Allenspach
+#NAME:          Security
+#CLASS:         CS2080.001
+#DATE DUE:      18 March 2019
+#DESCRIPTION:   Create a script that prints a friendly message.  However,
+#               the script can be executed only from one terminal.  You can use
+#               the name of the terminal you are using when you write the script
+#               (Note:  All of our terminals are “soft” – so this assignment
+#               doesn’t make sense – just go ahead and use any pts numbered
+#               terminal).  If somebody uses the script from a terminal that is
+#               not authorized, the script exits immediately.
+#EXIT VALUE
+#               0       if successfully completed
+#               10      incorrect number of arguments
+#               20      one or more files does not exist
+#               30      Unauthorized terminal
+# ==============================================================================
+set terminal = `tty` # Create a variable which holds current terminal path
+
+if ( $terminal != "/dev/pts/1" ) then # Must be in correct terminal for security purposes
+        exit 30
+endif
+
+if ( $#argv == 0 ) then # Run at least one argument for friendly message to appear
+        echo "Requires at least one argument"
+        exit 10
+endif
+
+if ( ! -r $argv[1] ) then # Incorrect filename
+        echo "The first file cannot be read"
+        exit 20
+endif
+
+echo "Hello! I hope you are having a fantastic day!" # Friendly message 
+exit 0
