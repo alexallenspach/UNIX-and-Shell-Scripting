@@ -1,0 +1,38 @@
+#!/bin/csh
+#AUTHOR:        Alex Allenspach
+#NAME:          Security
+#CLASS:         CS2080.001
+#DATE DUE:      1 April 2019
+#DESCRIPTION:   Create a file and type in the list of files (in your directory) that you
+#               want to backup. Create a directory in which you will store the backed-up
+#               files. 
+#EXIT VALUE
+#               0       if successfully completed
+#               10      incorrect number of arguments
+#               20      one or more files does not exist
+# ==============================================================================
+#Making sure that exactly two arguments are entered
+if ( $#argv != 2 ) then
+        echo "Requires two arguments"
+        exit 10
+endif
+
+#Check that the first argument is the name of a file that exists
+if ( ! -e $argv[1] ) then
+        echo "The filename given as your first argument does not exist"
+        exit 20
+endif
+
+#Check that the second argument is the name of the directory that exists
+if ( ! -d $argv[2] ) then
+        echo "The second argument is not a directory or the name of a directory that doesn't exist."
+        exit 20
+endif
+
+#Creating backup files for all the files listed in the first argument and putting them in the
+#directory given as the second argument
+foreach files_to_backup ( `cat $argv[1]` )
+        cp $files_to_backup $HOME/backup_files/$files_to_backup.bak
+        cp $files_to_backup ${HOME}/backup_files/${files_to_backup}.bak
+end
+exit 0
